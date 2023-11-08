@@ -1,0 +1,277 @@
+ nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+nav img{
+    width: 150px;
+    
+    
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    }
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li:after{
+    content: '';
+    width: 0%;
+    height: 2PX;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+    
+} 
+.bleue{
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+    padding: 12px 23px;
+}
+.verte{
+    /* background-color: forestgreen; */
+    padding: 12px 23px;
+    width: 15px;
+    height: 15px;
+}
+
+nav .fa{
+    display: none;
+    display: none;
+}
+ .premier{
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+    min-height: 100vh;
+    width: 50%;
+    /* text-align: end; */
+    display: flex;
+    
+    /* background-position: center;
+    background-size: cover;
+    /* position:relative; */
+    margin-left: 250px;  
+}
+ 
+ .col-2 a{
+  display: inline-block;
+  text-decoration: none; 
+  padding: 10px 30px;
+  background-color: blue;  
+  color: #fff;
+  border-radius: 30px;
+  margin-top: 25px;
+  transition: background 0.5s;
+ }
+ .col-2 a:hover{
+     background: #106e77;
+ }
+ 
+ .col-2{
+     flex-basis: 50%;
+     min-width: 300px;
+ }
+ .col-2 img{
+     width: 100%;
+     padding: 30px 0;
+     
+     
+ }
+ .col-2 h1{
+     font-size: 50px;
+     line-height: 60px;
+     margin: 25px 0;
+     
+ }
+ .p{
+  color: #555;  
+ }
+ .header-section{
+   background: radial-gradient(#fff, #eaf2fb);  
+ }
+.vere{
+  text-align: center;
+  color: blue; 
+  font-size: xx-large;
+}
+.sim{
+  font-size: x-large;  
+  text-align: center;
+}
+.p{
+    font-size: x-large;
+    width: 30px;
+}
+.verte{
+    font-size: x-large;
+}
+.des{
+    text-align: center;
+}
+.d1{
+    margin-left: 450px;
+    width: 600px;
+    height: 600px;
+}
+.lou{
+    width: 50px;
+    height: 50px;
+}
+.r{
+border: 1px solid;
+width:300px ;
+margin-left: 15px;
+
+}
+.b{
+    text-align: center;
+    color: blue;
+    
+}
+.web{
+    text-align: center;
+    font-size: xx-large;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card-img-top{
+    width: 400px;
+    height: 350px;
+}
+.card-title{
+    color: darkgoldenrod;
+    font-size: x-large;
+    border: 1px solid violet; 
+    width: 115px;
+}
+.card-text{
+    font-size: larger;
+    
+}
+.mon{
+    text-align: center;
+    font-size: x-large;
+} 
+.monture{
+    display: flex;
+    justify-content: space-around;
+} 
+.vn{
+    width: 300px;
+    height: 300px;
+}
+.ti{
+    font-size: x-large;
+    color: darkorange;
+    border-radius: 50px;
+    
+} 
+.btn {
+    
+    background-color: coral;
+    border: 1px solid violet; 
+    width: 115px;
+}
+.ty{
+    font-size: x-large;
+    color: darkorange;
+    border-radius: 50px;
+    border: 1px solid violet; 
+    width: 80px;
+}
+.bbb{
+    background-color: #f44336;
+}
+.mmm{
+    /* background-color: darkmagenta; */
+}
+.solei{
+    text-align: center;
+    background-color: greenyellow;
+} 
+.sol{
+    display: flex;
+}
+.im{
+    width: 250px;
+    height: 250px;
+    transition: transform 3s;
+}
+.px{
+    /* border: 3px solid violet;  */
+    width: 140px;
+    background-color: gold;
+    
+}
+.lu{
+    text-align: center;
+    background-color: brown;
+}
+.ach{
+    color: black;
+      border: 2px solid brown;  
+}
+.tes{
+    text-align: center;
+    font-size: x-large;
+}
+.ts{
+    display: flex;
+}
+/* style de la categorie */
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin: auto;
+    
+}
+.zonga{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+/* section des monture */
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    padding: 15px;
+    transition: transform 0.4s;
+    
+}
+.col-4 img{
+    width: 100%;
+    
+}
+.col-4:hover{
+    transform:translateY(-10px);
+}
+.sole{
+    text-align: center;
+}
+
+
+
+
+
